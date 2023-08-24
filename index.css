@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(IMG/pexels-francesco-ungaro-1711323.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    color: white;
+}
+
+
+header {
+    
+   
+background-color: black;
+    padding: 20px 0;
+}
+
+
+nav { 
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.nav-links li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-links a:hover{
+    padding: 20px;
+    background-color: brown;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    
+   
+display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    
+   
+border-radius: 5px;
+    text-decoration: none;
+}
+
+.featured-watches {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    
+    
+}
+.watch {
+    text-align: center;
+}
+
+.watch img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.watch h2 {
+    
+   
+font-size: 24px;
+    margin: 10px 0;
+}
+
+footer {
+    
+   
+text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
+
